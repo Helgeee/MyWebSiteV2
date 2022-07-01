@@ -80,6 +80,8 @@ header{
 	height: 40px;
 	margin-top: 10px;
 	padding-left: 40px;
+	display: flex;
+	justify-content: center;
 }
 
 .top-profile-container{
