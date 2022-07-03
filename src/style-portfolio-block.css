@@ -1,0 +1,20 @@
+
+
+.portfolio-block{
+	margin: 0 auto;
+}
+.portfolio-block-work{
+	width: 612px;
+  	height: 888px;
+  	margin: 10px;
+  	border-radius: 4px;
+  	background-color: #101010;
+}
+
+.portfolio-block-work img{
+	width: 612px;
+  	height: 888px;
+  	margin: 10px;
+  	border-radius: 4px;
+  	
+}
