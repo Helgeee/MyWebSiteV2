@@ -110,7 +110,7 @@ header{
 	width: 1000px;
 }
 
-.top-profile-text-container h2{
+.top-profile-text-container h1 h2{
 	font-size: 60px;
 	text-align: left;
 	
@@ -127,7 +127,7 @@ header{
 	top: 300px;
 	display: inline-block;
 	margin: 40px auto;
-	padding: 30px;
+	padding: 0 30px 10px 0;
 
 }
 .top-profile-container-social-networks a{
@@ -193,6 +193,7 @@ header{
 
 
 .portfolio-block{
+	padding: 100px 0 100px 0;
 	position: relative;
 	margin: 0 auto;
 }
@@ -207,13 +208,12 @@ header{
 
 .portfolio-block-work img{
 	position: absolute;
-	width: 100%; /* for IE 6 */
+	width: 100%; 
 
     width: 612px;
   	height: 888px;
    
 	border: 5px;
-	font-style: 50px;
    
 }
 
@@ -226,6 +226,64 @@ header{
 	top: 50%;
 	left: 50%;
 	
- } 
+} 
 
 
+
+
+.Personal-projects{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	
+
+}
+.Personal-projects-work {
+	display: inline-block;
+	position: relative;
+	
+	height: 560px;
+	width: 400px;
+  	margin: 0 10px 10px  0 ;
+  	border-radius: 4px;
+}
+
+.Personal-projects img{
+	position: absolute;
+	
+	width: 100%;
+	height: 560px;
+	width: 400px;
+
+	border: 5px;
+	
+}
+
+
+
+
+
+footer{
+	background: #323232 ;
+	height: 100px;
+	margin: 0 0 50px 0 ;
+ }
+
+.footer-container{
+	padding-bottom: 126px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ 
+ .footer-container{
+	color:#ffffff;
+    font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+    margin-right: 63px;
+    padding: 27px 6px ;
+	
+ }
