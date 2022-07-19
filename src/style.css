@@ -38,13 +38,12 @@ body{
 	background:  #202020;
 	max-width: 100%;
 	font-family: 'Raleway', sans-serif;
-	background-image: url("/img/6уг.png");
-	
+	background-image: url("/img/pngback.png") ;
+	background-size: 100%;
 }
 main{
 	max-width: 1440px;
 	margin:0 auto;
-
 }
 
 ul{
@@ -70,7 +69,7 @@ header{
     font-family: 'Manrope';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
     margin-right: 63px;
     padding: 27px 6px ;
 	text-transform: uppercase;
@@ -87,14 +86,12 @@ header{
 	justify-content: center;
 }
 
-
-
+/* profile */
 
 .profile{
 	width: 1248px;
 	margin: 0 auto;
-	margin-top: 240px;
-	
+	margin-top: 217px;
 }
 
 .top-profile-container{
@@ -138,16 +135,15 @@ header{
 	flex-direction:row;
 	align-items:center;
 	
-	
 	padding: 0 30px 10px 0;
-
 }
+
 /* .top-profile-socialnet-container a{
 	position: relative;
 	margin: 20px;
 	cursor: pointer;	
-}
  */
+
 .top-profile-socialnet-block{
 	margin-right: 50px;
 	cursor: pointer;
@@ -202,20 +198,20 @@ header{
 	z-index: 1 ;
 }
 
+/* portfolio */
 
 .portfolio{
 	margin: 0 auto;
-	margin-top: 240px;
+	margin-top: 200px;
 	width: 1248px;
 }
 
 .portfolio h3{
-	margin-top: 100px;
+	margin-top: 50px;
 	color: #ffffff;
 	text-align: center;
 	font-size: 36px;
 }
-
 
 .featured{
 	margin-top: 89px;
@@ -224,7 +220,6 @@ header{
 
 	flex-grow: 0;
   	opacity: 0.7;
-  	font-family: Manrope;
   	font-size: 16px;
 	color: #ffffff;
 	font-weight: bold;
@@ -244,28 +239,27 @@ header{
 .portfolio-container{
 	margin: 0 auto;
 	cursor: pointer;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap:wrap;
 }
 .portfolio-block-work{
-	display: inline-block;  
-    position:relative;
 	width: 612px;
     height: 888px;
 	border-radius: 4px;
 	margin-top: 50px ;
 }
 .portfolio-block-work img {
-	position: relative;
 	width: 100%;
 	border-radius: 5px;
 	z-index: 1;
 }
 
 .portfolio-block-work-text{
-	position: absolute;
 	color: #ffffff;
 	font-size: 25px ;
 	display: flex;
-    align-items: center;
     justify-content: center;
 	width: 100% ;
 	z-index: 2;
@@ -356,6 +350,7 @@ header{
 	text-transform: uppercase;
 }
 
+/* Work */
 
 
 
@@ -381,12 +376,13 @@ footer{
  }
 
 .footer-container-made{
+	position: absolute;
 	color:#ffffff;
-    font-family: 'Manrope';
+
 	font-style: normal;
 	font-weight: 700;
 	font-size: 12px;
-	text-transform: uppercase;
+	text-transform: uppercase;	
  }
 
 

@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+body{
+    background: #202020;
+	max-width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+main{
+	max-width: 1440px;
+	margin:0 auto;
+}
+
+ul{
+    display: flex;
+}
+nav{
+	margin-top: 30px;
+}
+header{
+	height: 80px;
+	margin: 0 0 50px 0 ;
+}
+
+.header-container{
+    background-image: url(/img/background2.jpg) ;
+    height: 500px;
+}
+.header-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.header-block{
+    margin: 0 auto;
+    display: flex; 
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgba(41, 41, 41, 0.8);
+}
+
+
+.header-block a{
+    color:#ffffff;
+    font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+    margin-right: 63px;
+    padding: 27px 6px ;
+	text-transform: uppercase;
+}
+.navigation{
+	display: inline;
+	
+}
+.logo{
+	height: 40px;
+	margin-top: 10px;
+	padding-left: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+.work-experience{
+	margin: 0 auto;
+	margin-top: 620px;
+	width: 1248px;
+	height: 400px;
+}
+
+.work-experience h1 , p{
+	margin-top: 10px;
+    color:#ffffff;
+    font-size: 32px;
+	text-align: left;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin-top: 119px;
+	height: 120px;
+	width: 100%;
+	flex-grow: 0;
+	padding: 0 0 36px;
+	background-color: #202020;
+	
+ }
+
+.footer-container{
+	width: 100%;
+  	height: 1px;
+  	margin: 119px 0 48px;
+  	background-color: #696969;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+.footer-container-made{
+	color:#ffffff;
+    font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+ }
+
+
+
