@@ -34,13 +34,13 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
-
 body{
-    background: #202020;
+	background:  #202020;
 	max-width: 100%;
 	font-family: 'Raleway', sans-serif;
+	background-image: url("/img/pngback.png") ;
+	background-size: 100%;
 }
-
 main{
 	max-width: 1440px;
 	margin:0 auto;
@@ -53,35 +53,23 @@ nav{
 	margin-top: 30px;
 }
 header{
+	background: #323232 ;
 	height: 80px;
 	margin: 0 0 50px 0 ;
 }
-
 .header-container{
-    background-image: url(/src/img/background2.jpg) ;
-    height: 500px;
-}
-.header-container img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.header-block{
+	padding-bottom: 126px;
     margin: 0 auto;
-    display: flex; 
-    height: 80px;
+    display: flex;
     justify-content: space-between;
-    background-color: rgba(41, 41, 41, 0.8);
+	
 }
-
-
-.header-block a{
+.header-container a{
     color:#ffffff;
     font-family: 'Manrope';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 16px;
     margin-right: 63px;
     padding: 27px 6px ;
 	text-transform: uppercase;
@@ -99,46 +87,19 @@ header{
 }
 
 
-
-
-
-.work-experience{
-	margin: 0 auto;
-	margin-top: 620px;
-	width: 1248px;
-	height: 400px;
+.contact{
+    margin: 0 auto;
+    margin-top: 250px;
 }
 
-
-footer{
-	margin-top: 119px;
-	height: 120px;
-	width: 100%;
-	flex-grow: 0;
-	padding: 0 0 36px;
-	background-color: #202020;
-	
- }
-
-.footer-container{
-	width: 100%;
-  	height: 1px;
-  	margin: 119px 0 48px;
-  	background-color: #696969;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-
- }
-
-.footer-container-made{
-	color:#ffffff;
-    font-family: 'Manrope';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	text-transform: uppercase;
- }
-
+.contact h1{
+    text-align: center;
+    font-size: 70px;
+    color:#ffffff;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-right: 63px;
+    cursor: pointer;
+}
 
 

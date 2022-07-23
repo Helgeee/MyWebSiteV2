@@ -22,7 +22,7 @@ html,body{
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-input,button,textarea{font-family:inherit;}
+input,button,textarea{font-family:"inherit";}
 
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -34,11 +34,15 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
+*{
+	font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
 	background:  #202020;
 	max-width: 100%;
-	font-family: 'Raleway', sans-serif;
-	background-image: url("/img/pngback.png") ;
+	background-image: url("/src/img/pngback.png") ;
 	background-size: 100%;
 }
 main{
@@ -66,17 +70,16 @@ header{
 }
 .header-container a{
     color:#ffffff;
-    font-family: 'Manrope';
+    font-family: "Manrope" ;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 16px;
     margin-right: 63px;
     padding: 27px 6px ;
 	text-transform: uppercase;
 }
 .navigation{
 	display: inline;
-	
 }
 .logo{
 	height: 40px;
@@ -124,6 +127,7 @@ header{
 }
 .facts-text{
 	color: #a3a3a3;
+	font-family: "Manrope";
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 400;
@@ -153,11 +157,13 @@ header{
 } */
 
 
-.top-profile-text-container-btn-email button{
+.top-profile-text-container-btn-email button , .top-profile-text-container-btn-email a{
 	margin-top: 100px;
 	align-items: center;
 	background: #9D9D9D;
 	font-size: 18px ;
+	font-family: "Manrope";
+	font-weight: 400;
 	text-transform: uppercase;
 	color: #ffffff;
 	width: 300px;
@@ -167,11 +173,13 @@ header{
 
 	cursor: pointer;
 }
-.top-profile-text-container-btn-resume button{
+.top-profile-text-container-btn-resume button , .top-profile-text-container-btn-resume a{
 	margin-top: 40px;
 	align-items: center;
 	background: #9D9D9D;
 	font-size: 18px;
+	font-family: "Manrope";
+	font-weight: 400;
 	text-transform: uppercase;
 	color: #ffffff;
 	width: 300px;
@@ -210,6 +218,9 @@ header{
 	margin-top: 50px;
 	color: #ffffff;
 	text-align: center;
+	font-family: 'Manrope';
+	font-style: normal; 
+	font-weight: 700;
 	font-size: 36px;
 }
 
@@ -222,7 +233,8 @@ header{
   	opacity: 0.7;
   	font-size: 16px;
 	color: #ffffff;
-	font-weight: bold;
+	font-family: "Manrope";
+	font-weight: 700;
   	font-stretch: normal;
   	font-style: normal;
 	text-transform: uppercase;
@@ -258,14 +270,16 @@ header{
 
 .portfolio-block-work-text{
 	color: #ffffff;
-	font-size: 25px ;
 	display: flex;
     justify-content: center;
+	font-family: "Manrope";
+	font-weight: 400;
+	font-size: 25px;
 	width: 100% ;
 	z-index: 2;
 }
 
-
+/* personal-projects */
 
 .personal-projects{
 	margin-top: 200px;
@@ -304,13 +318,12 @@ header{
 .personal-projects-block-text{
 	color: #ffffff;
 	font-size: 25px ;
-
+	font-family: "Manrope";
+	font-weight: 400;
 	align-items: center;
 }
 
-
-
-
+/* contact */
 
 .contact-me{
 	margin-top: 240px;
@@ -376,14 +389,37 @@ footer{
  }
 
 .footer-container-made{
-	position: absolute;
 	color:#ffffff;
 
 	font-style: normal;
 	font-weight: 700;
 	font-size: 12px;
-	text-transform: uppercase;	
+
+
+	margin-top: 60px;
+	margin-left: 96px;
  }
+ .footer-container-made span{
+	color: #959595;
+ }
+
+
+ .footer-container-socialnet{
+	margin-top: 80px;
+	display: flex;
+	flex-direction:row;
+	align-items:flex-end;
+	
+	padding: 0 50px 10px 50px;
+	cursor: pointer;
+ }
+
+.footer-container-socialnet-block{
+	margin-left: 43px;
+}
+.footer-container-socialnet-block:last-child {
+	margin-right: 96px;
+}
 
 
 
